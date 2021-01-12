@@ -31,8 +31,9 @@ router.get("/items/:itemId", (req, res) => {
 router.patch("/items/:itemId", (req, res) => {
   let id = req.params.id;
   itemModel
-    .findByIdAndUpdate(id, { $set: { nrOfItems: req.body.nrOfItems } })
+  .findByIdAndUpdate(id, { $inc: { nrOfItems: -1 } })
     .then((response) => {
+      console.log('inc updated')
       res.status(200).json(response);
     })
     .catch((err) => {

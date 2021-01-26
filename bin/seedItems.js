@@ -4,6 +4,7 @@ require('../config/db.config')
 
 itemModel.insertMany([
     {
+        id: 1,
         name: 'Kingtop', 
         price: 17, 
         image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1550696085-kingtop-1550696080.jpg?crop=1xw:1xh;center,top&resize=768:*',
@@ -12,6 +13,7 @@ itemModel.insertMany([
         category: '4-piece'
     },
     {
+        id: 2,
         name: 'iRainy', 
         price: 10, 
         image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1550696032-irainy-1550696018.jpg?crop=1xw:1xh;center,top&resize=768:*',
@@ -20,6 +22,7 @@ itemModel.insertMany([
         category: '5-piece'
     },
     {
+        id: 3,
         name: 'SharpStone', 
         price: 14, 
         image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1595006328-sharpstone-1595006310.jpg?crop=1xw:1xh;center,top&resize=768:*',
@@ -28,6 +31,7 @@ itemModel.insertMany([
         category: '4-piece'
     },
     {
+        id: 4,
         name: 'Mendo Mulcher', 
         price: 19, 
         image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1550696316-mendo-1550696306.jpg?crop=1xw:1xh;center,top&resize=768:*',
@@ -36,6 +40,7 @@ itemModel.insertMany([
         category: '2-piece'
     },
     {
+        id: 5,
         name: 'Golden Gate Grinders', 
         price: 20, 
         image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1590587918-golden-gate-1590587910.jpg?crop=1xw:1xh;center,top&resize=768:*',
@@ -44,6 +49,7 @@ itemModel.insertMany([
         category: '4-piece'
     },
     {
+        id: 6,
         name: 'Aerospaced', 
         price: 25, 
         image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1550696397-aerospaced-mill-1550696392.jpg?crop=1xw:1xh;center,top&resize=768:*',

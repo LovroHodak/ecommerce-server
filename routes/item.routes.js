@@ -28,7 +28,7 @@ router.get("/items/:itemId", (req, res) => {
     });
 });
 
-router.patch("/items/:itemId", (req, res) => {
+/* router.patch("/items/:itemId", (req, res) => {
   let id = req.params.id;
   itemModel
   .findByIdAndUpdate(id, { $inc: { nrOfItems: -1 } })
@@ -42,6 +42,6 @@ router.patch("/items/:itemId", (req, res) => {
         message: err,
       });
     });
-});
+}); */
 
 module.exports = router;
